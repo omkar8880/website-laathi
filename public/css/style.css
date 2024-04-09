@@ -246,17 +246,17 @@ a:focus,
   }
 }
 /* Header Section */
-.intro {
+/* .intro {
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/old-mans-photo.jpg ) center center no-repeat;
+  background: url(../img/intro-bg.jpg ) center center no-repeat;
   background-color: #cfcfcf;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
+} */
 
 .intro .overlay {
   background: rgba(211, 211, 211, 0.463);
@@ -310,10 +310,15 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
+  color: #090404;
+  font-weight: 500;
 }
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
+}
+#about{
+  background-color: rgba(211, 211, 211, 0.463);
 }
 #about h2 {
   position: relative;
@@ -413,6 +418,11 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
+  color: #1b1b1b;
+  font-weight: 500;
+}
+#portfolio{
+  background-color: rgba(211, 211, 211, 0.463);
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -511,6 +521,9 @@ header .intro-text {
 }
 #team {
   padding: 100px 0;
+}
+#team {
+  background-color: rgba(211, 211, 211, 0.463);
 }
 #team h4 {
   margin: 5px 0;
