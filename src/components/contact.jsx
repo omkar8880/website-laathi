@@ -15,12 +15,12 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
+
     emailjs
       .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
       .then(
@@ -46,7 +46,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" validate action="https://formspree.io/f/mdoqpzkr" method="POST">
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -159,7 +159,7 @@ export const Contact = (props) => {
                   </li>
                   <li>
                     <a href={props.data ? props.data.email1 : "/"}>
-                    <i class="fa fa-envelope"></i>
+                      <i class="fa fa-envelope"></i>
                     </a>
                   </li>
                 </ul>
@@ -171,10 +171,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-          Copyright &copy; 2024  Laathi ™ {" "}
-            {/* <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a> */}
+            Copyright &copy; {new Date().getFullYear()} Laathi ™ {" "}
           </p>
         </div>
       </div>
