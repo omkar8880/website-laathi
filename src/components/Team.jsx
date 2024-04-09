@@ -7,8 +7,7 @@ export const Team = (props) => {
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Meet the Team</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Laathi Team is a group of dedicated individuals committed to excellence, collaboration, and innovation in all endeavors.
           </p>
         </div>
         <div id="row">
@@ -20,7 +19,7 @@ export const Team = (props) => {
                     <img src={d.img} alt="..." className="team-img" />
                     <div className="caption">
                       <h4>{d.name}</h4>
-                      <p>{d.job}</p>
+                      <p className="job-text">{d.job}</p> {/* Added custom class */}
                     </div>
                   </div>
                 </div>
@@ -31,3 +30,5 @@ export const Team = (props) => {
     </div>
   );
 };
+
+export default Team;

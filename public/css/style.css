@@ -75,6 +75,11 @@ hr {
   padding: 15px;
   transition: all 0.8s;
 }
+#menu .container
+{
+  /* background-color: red; */
+  width: 90%;
+}
 #menu.navbar-default {
   background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
@@ -82,7 +87,7 @@ hr {
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
+  font-size: 4px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
@@ -167,7 +172,7 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #ff9696 0%, #962e2e 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -203,36 +208,73 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
+.navbar-brand {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img
+{
+  border-radius: 4px;
+}
+.logo {
+  width: 10px;
+  height: auto;
+  margin-right: 10px; /* Adjust as needed */
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 60px; 
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 100px; /* Adjust as needed */
+  }
+}
 /* Header Section */
 .intro {
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+  background: url(../img/old-mans-photo.jpg ) center center no-repeat;
+  background-color: #cfcfcf;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(211, 211, 211, 0.463);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #931b1b; /* Text color */
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  background: linear-gradient(to right, #ff2727 0%, #090404 100%); /* Background gradient from red to white */
+  -webkit-background-clip: text; /* Clip text to the background */
+  -webkit-text-fill-color: transparent; /* Make text transparent where background is applied */
 }
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
+  color: #000000;
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
@@ -246,6 +288,7 @@ header .intro-text {
 }
 /* Features Section */
 #features {
+  padding: 100px 0;
   background: #f6f6f6;
 }
 #features i.fa {
@@ -257,8 +300,8 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(to right, #ff9696 0%, #962e2e 100%);
+  box-shadow: 10px 10px 10px rgba(162, 95, 95, 0.05);
 }
 /* About Section */
 #about {
@@ -289,7 +332,7 @@ header .intro-text {
   padding: 0;
 }
 #about .about-text li:before {
-  content: "\f00c";
+  /* content: "\f00c"; */
   font-family: "FontAwesome";
   color: #5ca9fb;
   font-size: 11px;
@@ -298,19 +341,32 @@ header .intro-text {
 }
 #about img {
   width: 520px;
-  margin-top: 10px;
+  margin-top: 95px;
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
-#about p {
-  line-height: 24px;
+#about ul {
+  /* line-height: 24px; */
+  /* list-style: circle; */
   margin: 30px 0;
+
 }
+.about_content  
+{
+  /* list-style: none; */
+  /* background-color: red; */
+  list-style-type: none;
+}
+.col-lg-6 li::before
+{
+  content: "\f00c";
+}
+
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #ff4b4b 0%, #d66464 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -334,7 +390,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #ff9696 0%, #962e2e 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -430,16 +486,25 @@ header .intro-text {
 }
 .testimonial-content p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-style: italic;
 }
 .testimonial-meta {
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
   color: #666;
 }
 /* Team Section */
+#row
+{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-start; */
+  
+}
 #team {
   padding: 100px 0;
 }
@@ -457,10 +522,13 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+/* .job-text {
+  text-align: left;
+} */
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #ff4b4b 0%, #d86b6b 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -504,7 +572,7 @@ header .intro-text {
   border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
-  color: #1f386e;
+  color: #ff7676;
   background: #fff;
 }
 label {

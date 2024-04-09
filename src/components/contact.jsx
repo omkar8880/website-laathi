@@ -21,8 +21,6 @@ export const Contact = (props) => {
     e.preventDefault();
     console.log(name, email, message);
     
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
     emailjs
       .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
       .then(
@@ -140,8 +138,28 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
+                    <a href={props.data ? props.data.linkedin : "/"}>
+                      <i className="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
                     <a href={props.data ? props.data.youtube : "/"}>
                       <i className="fa fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.instagram : "/"}>
+                      <i className="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.whatsapp : "/"}>
+                      <i className="fa fa-whatsapp"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.email1 : "/"}>
+                    <i class="fa fa-envelope"></i>
                     </a>
                   </li>
                 </ul>
@@ -153,10 +171,10 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
+          Copyright &copy; 2024  Laathi ™ {" "}
+            {/* <a href="http://www.templatewire.com" rel="nofollow">
               TemplateWire
-            </a>
+            </a> */}
           </p>
         </div>
       </div>

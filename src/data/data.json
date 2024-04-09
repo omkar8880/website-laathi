@@ -1,21 +1,25 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Laathi",
+    "paragraph": "Getting old is like climbing a mountain; you get a little out of breath, but the view is much better! - Ingrid Bergman"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": ["Welcome to LAATHI™, a company dedicated to providing support and assistance to older adults who are living away from their loved ones. We understand that life can be challenging for seniors who may need help with everyday tasks or may feel isolated due to distance from family and friends.",
+      "At LAATHI™, we aim to make life easier for older adults by offering a range of services that can be accessed online. From healthcare to home maintenance, from grocery delivery to tech support, we offer a variety of services that can help seniors feel more independent, connected, and comfortable in their daily lives.",
+      "Our team of professionals is committed to delivering high-quality services that are tailored to meet the unique needs of each individual. We believe in treating our clients with respect, empathy, and kindness, and we strive to build lasting relationships based on trust and understanding.",
+      "Thank you for choosing LAATHI™, and we look forward to working with you to help make your life easier and more enjoyable."
+    ],
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Empowering seniors online.",
+      "Tailored assistance available",
+      "Compassionate team support",
+      "Comprehensive services offered"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Convenient, personalized help",
+      "Trusted professionals dedicated",
+      "Remote access provided",
+      "Seamless online assistance"
     ]
   },
   "Gallery": [
@@ -100,64 +104,58 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "Laathi™ is the need of the hour with highly mobile youth looking for jobs in bigger cities and their parents staying back home with no support system",
+      "name": "SAMUEL D’SOUZA"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "The way I see old people suffering in silence, I feel pain and wonder if someone will come forward to take care of them. I think this initiative is noble and worth supporting.",
+      "name": "R. MADHVAN"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "Social enterprise the future as we need companies which help our society become more inclusive and solve our problems.",
+      "name": "AVANTI MALHOTRA."
     }
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/dr-anamika.jpg",
+      "name": "DR. ANAMIKA SINGH",
+      "job": "Dr. Anamika Singh has done her masters in social work, another masters from USA in criminal justice and Ph.d in sociology. She has continuously worked on social issues and plays an important role at laathi.com to make it a company that brings positive change in the society. "
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/navneet-kumar.jpg",
+      "name": "NAVNEET KUMAR",
+      "job": "Navneet has an entrepreneurial experience of 15 years as he established various companies in Africa. He did his graduation in french language from JNU and speaks various languages fluently.. He is an avid reader and works really hard to bring something from idea stage to a profit making company."
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/dr-vireswar-kumar.jpg",
+      "name": "DR. VIRESHWAR KUMAR",
+      "job": "DR. Vireshwar works as faculty in computer science department of highly reputed IIT Delhi. He works with us in the role of Mentor and gives us regular guidance related to technology, use of artificial intelligence, automation and tech team building. His core research subjects are 5G network, car security, self driven car safety and drone automation."
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/batissmal.jpg",
+      "name": "BTISSAM EL MORSLI",
+      "job": "Btissam brings great insight from her country of Residence Italy and morocco and she has personally worked with various old people and took care of them.. she understands the problem well and she is enthusiastic about the whole concept of Laathi."
+    },
+    {
+      "img": "img/team/hemant.jpg",
+      "name": "HEMANT",
+      "job": "M.TECH, CSE, IIT DELHI. Hemant plays an important role to co-ordinate on various tech related subjects and gives his valuable insight. His back end data engineering helps us build a great product."
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "IIT Delhi",
+    "phone": "+91 911 911 1053",
+    "email": "help@laathi.com",
+    "facebook": "https://www.facebook.com/laathiTech",
+    "twitter": "https://twitter.com/Laathicom",
+    "linkedin": "https://www.linkedin.com/company/tech-shy-private-limited/",
+    "youtube": "https://www.youtube.com/@laathitech",
+    "instagram": "https://www.instagram.com/laathitech/",
+    "whatsapp": "https://api.whatsapp.com/send/?phone=919119111053&text&type=phone_number&app_absent=0",
+    "email1": "mailto:help@laathi.com"
   },
   "Features": [
     {

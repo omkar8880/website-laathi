@@ -11,15 +11,16 @@ export const Navigation = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            <span className="sr-only">Toggle navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
-          </a>{" "}
+          <a className="navbar-brand page-scroll" href="#page-top" style={{ marginLeft: '0px' }}>
+            <img src="/img/laathi-icon.png" alt="Laathi Logo" style={{ width: '90px', height: 'auto' }} />
+          </a>
+
+
         </div>
 
         <div
@@ -29,7 +30,7 @@ export const Navigation = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#features" className="page-scroll">
-                Home
+                Features
               </a>
             </li>
             <li>
@@ -39,19 +40,19 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#services" className="page-scroll">
-                Team Laathi
+                Services
               </a>
             </li>
             <li>
               <a href="#portfolio" className="page-scroll">
-                Contact Us
+                Blog
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#testimonials" className="page-scroll">
                 Testimonials
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#team" className="page-scroll">
                 Team
