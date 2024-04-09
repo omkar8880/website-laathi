@@ -10,16 +10,16 @@
       "Thank you for choosing LAATHI™, and we look forward to working with you to help make your life easier and more enjoyable."
     ],
     "Why": [
-      "Empowering seniors online.",
-      "Tailored assistance available",
-      "Compassionate team support",
-      "Comprehensive services offered"
+      "User-Friendly Interface",
+      "Comprehensive Services",
+      "Security and Privacy",
+      "24/7 Support"
     ],
     "Why2": [
-      "Convenient, personalized help",
-      "Trusted professionals dedicated",
-      "Remote access provided",
-      "Seamless online assistance"
+      "Companion Mode",
+      "Customization Options",
+      "Health and Wellness Resources",
+      "Community and Social Features"
     ]
   },
   "Gallery": [
@@ -159,24 +159,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-language",
+      "title": "Services",
+      "text": "Access a wide range of services like bill payments and medical appointments all in one place, making daily tasks simpler for the elderly."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Entertainment",
+      "text": "Enjoy a variety of entertainment options including music, video calls with friends, and a chat feature, providing a fun and interactive experience."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-cart-arrow-down",
+      "title": "Orders",
+      "text": "Easily place and track orders for groceries and other essentials, ensuring a hassle-free shopping experience."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-plane",
+      "title": "Transaction",
+      "text": "Conduct secure transactions for online shopping and other services, with a focus on simplicity and security for the elderly users.s"
     }
   ]
 }
