@@ -1,6 +1,12 @@
 import React from "react";
 
 export const Navigation = (props) => {
+  
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    contactSection.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -58,10 +64,10 @@ export const Navigation = (props) => {
                 Team
               </a>
             </li>
-            <li>
-              <a href="#contact" className="page-scroll">
-                Contact
-              </a>
+            <li style={{paddingLeft: "2rem",paddingTop: "1rem"}}>
+            <button className="btn btn-danger page-scroll" onClick={scrollToContact}>
+                CONTACT
+              </button>
             </li>
           </ul>
         </div>

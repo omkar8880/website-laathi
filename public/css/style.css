@@ -47,13 +47,13 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #608dfd;
+  color: #ff4b4b;
   font-weight: 400;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #608dfd;
+  color: #ff4b4b;
 }
 ul,
 ol {
@@ -113,7 +113,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #ff4b4b 0%, #d86b6b 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -134,7 +134,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #ff4b4b 0%, #d86b6b 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -144,10 +144,10 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: #608dfd;
+  border-color: #ff4b4b;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: #ff4b4b;
 }
 .section-title {
   margin-bottom: 70px;
@@ -161,7 +161,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #ff4b4b 0%, #d86b6b 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -323,7 +323,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #ff4b4b 0%, #d86b6b 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -338,7 +338,7 @@ header .intro-text {
 #about .about-text li:before {
   /* content: "\f00c"; */
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #e74e4e;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -652,7 +652,7 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
+  color: #ff4b4b;
   background: #fff;
 }
 /* Footer Section*/
@@ -665,10 +665,10 @@ label {
   font-size: 14px;
 }
 #footer a {
-  color: #608dfd;
+  color: #ff4b4b;
 }
 #footer a:hover {
-  border-bottom: 2px solid #608dfd;
+  border-bottom: 2px solid #ff4b4b;
 }
 
 @media (max-width: 768px) {
