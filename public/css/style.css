@@ -106,6 +106,14 @@ hr {
   border-radius: 0;
   margin: 9px 20px 0;
 }
+#menu.navbar-default .navbar-nav > li  >button
+{
+  transition: 0.5s;
+}
+#menu.navbar-default .navbar-nav > li  >button:hover
+{
+  transform: scale(1.2);
+}
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
   position: absolute;
@@ -588,6 +596,10 @@ header .intro-text {
   color: #ff7676;
   background: #fff;
 }
+.contact_button :hover
+{
+  transform: scale(1.2);
+}
 label {
   font-size: 12px;
   font-weight: 400;
@@ -604,13 +616,14 @@ label {
   background-color: #fff;
   background-image: none;
   border: 1px solid #ddd;
-  border-radius: 0;
+  border-radius: 5px;
   -webkit-box-shadow: none;
   box-shadow: none;
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
 }
+
 #contact .form-control:focus {
   border-color: #999;
   outline: 0;
