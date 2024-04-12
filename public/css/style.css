@@ -76,7 +76,7 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding: 12px;
   transition: all 0.8s;
 }
 #menu .container
@@ -310,7 +310,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
-  color: #090404;
+  color: #5c5c5c;;
   font-weight: 500;
 }
 #about h3 {
@@ -318,7 +318,7 @@ header .intro-text {
   margin: 0 0 20px;
 }
 #about{
-  background-color: rgba(211, 211, 211, 0.463);
+  background-color: rgb(255, 255, 255);
 }
 #about h2 {
   position: relative;
@@ -523,7 +523,7 @@ header .intro-text {
   padding: 100px 0;
 }
 #team {
-  background-color: rgba(211, 211, 211, 0.463);
+  background-color: #fff;
 }
 #team h4 {
   margin: 5px 0;

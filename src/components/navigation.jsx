@@ -23,7 +23,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>
           </button>
           <a className="navbar-brand page-scroll" href="#page-top" style={{ marginLeft: '0px' }}>
-            <img src="/img/laathi-icon.png" alt="Laathi Logo" style={{ width: '90px', height: 'auto' }} />
+            <img src="/img/laathi-icon.png" alt="Laathi Logo" style={{ width: '110px', height: 'auto' }} />
           </a>
 
 
