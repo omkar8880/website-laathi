@@ -175,7 +175,7 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
+  /* background-color: #5ca9fb; */
   background: linear-gradient(to right, #ff9696 0%, #962e2e 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
@@ -193,7 +193,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #a62424;
 }
 .btn:active,
 .btn.active {
@@ -286,7 +286,7 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -315,7 +315,7 @@ header .intro-text {
 }
 #about h3 {
   font-size: 22px;
-  margin: 0 0 20px;
+  margin: 0 0 -10px;
 }
 #about{
   background-color: rgb(255, 255, 255);

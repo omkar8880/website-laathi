@@ -41,34 +41,40 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/features/otp.png",
+      "icon": "fa fa-lock",
+      "name": "OTP Sharing",
+      "text": "Securely share one-time passwords (OTPs) with companions for verification and authentication purposes, ensuring seamless access to services and transactions."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/features/location.png",
+      "icon": "fa fa-location-arrow",
+      "name": "Location Sharing",
+      "text": "Share real-time location with companions for safety and convenience, allowing them to monitor your whereabouts and provide assistance if needed."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/features/medicine.png",
+      "icon": "fa fa-plus-square",
+      "name": "Medicine Reminders",
+      "text": "Receive timely reminders and notifications for medication schedules, helping you stay on track with your health routine and ensuring you never miss a dose."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/features/chat.png",
+      "icon": "fa fa-comments",
+      "name": "Chat Feature including Audio and Video Call",
+      "text": "Connect with friends, family, and caregivers through text-based chat, audio calls, and video calls, enabling virtual interactions and social engagement."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/features/upi.png",
+      "icon": "fa fa-exchange",
+      "name": "Transaction Management",
+      "text": "Manage financial transactions securely within the app, including bill payments and online purchases, ensuring convenient and hassle-free transactions."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/features/order.png",
+      "icon": "fa fa-shopping-cart",
+      "name": "Order Placement",
+      "text": "Easily place orders for groceries, or meals through the app, simplifying daily tasks and enhancing convenience."
     }
   ],
   "Testimonials": [
@@ -129,22 +135,26 @@
   },
   "Features": [
     {
-      "icon": "fa fa-language",
+      "img" : "img/features/services.png",
+      "icon": "fa fa-tasks",
       "title": "Services",
       "text": "Access a wide range of services like bill payments and medical appointments all in one place, making daily tasks simpler for the elderly."
     },
     {
-      "icon": "fa fa-bullhorn",
+      "img" : "img/features/entertainment.png",
+      "icon": "fa fa-gamepad",
       "title": "Entertainment",
       "text": "Enjoy a variety of entertainment options including music, video calls with friends, and a chat feature, providing a fun and interactive experience."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "img" : "img/features/order.png",
+      "icon": "fa fa-shopping-cart",
       "title": "Orders",
       "text": "Easily place and track orders for groceries and other essentials, ensuring a hassle-free shopping experience."
     },
     {
-      "icon": "fa fa-plane",
+      "img" : "img/features/transaction.png",
+      "icon": "fa fa-exchange",
       "title": "Transaction",
       "text": "Conduct secure transactions for online shopping and other services, with a focus on simplicity and security for the elderly users."
     }
