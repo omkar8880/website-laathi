@@ -66,7 +66,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li style={{ paddingLeft: "2rem", paddingTop: "1rem" }}>
-              <button className="btn btn-danger page-scroll" onClick={scrollToContact}>
+              <button className="btn btn-danger page-scroll contact_button"  onClick={scrollToContact}>
                 CONTACT
               </button>
             </li>
