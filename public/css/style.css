@@ -418,8 +418,8 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
-  color: #1b1b1b;
-  font-weight: 500;
+  color: #000000;
+  font-weight: 600;
 }
 #portfolio{
   background-color: rgba(211, 211, 211, 0.463);
@@ -438,11 +438,7 @@ header .intro-text {
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(
-    to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
-  );
+  background: linear-gradient(to right, #ff9696a2 0%, #962e2ebd 100%);
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
@@ -455,9 +451,9 @@ header .intro-text {
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   transition: all 0.3s;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
 }
 .hover-bg:hover .hover-text > h4 {
